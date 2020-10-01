@@ -2,7 +2,7 @@
   "name": "live_coding_clips",
   "version": "1.0.0",
   "description": "**Live Coding Clips** é um bot do twitter que a cada 1 hora postau um clip de algum Live Coder da Twitch.",
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
