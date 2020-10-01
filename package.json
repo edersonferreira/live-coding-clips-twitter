@@ -4,6 +4,7 @@
   "description": "**Live Coding Clips** é um bot do twitter que a cada 1 hora postau um clip de algum Live Coder da Twitch.",
   "main": "index.js",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "got": "^11.7.0",
     "twit": "^2.2.11"

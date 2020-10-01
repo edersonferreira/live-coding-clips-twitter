@@ -8,4 +8,6 @@ app.get('/', function (req, res) {
   res.statusCode = 200
 })
  
+app.use(cors())
+
 app.listen(process.env.PORT || 3333)
