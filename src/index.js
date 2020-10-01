@@ -1,4 +1,5 @@
 const express = require('express')
+const cors = require('cors')
 const tweet = require('./tweet')
 const app = express()
  
