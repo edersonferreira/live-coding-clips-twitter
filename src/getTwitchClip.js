@@ -19,7 +19,7 @@ async function getTwitchClip() {
         },
       },
     );
-    clipData = getClipData(response);
+    clipData = await getClipData(response);
     return { clip: clipData, coder: coder };
   } catch (error) {
     // if the live coder doesn't have clips, do the function again

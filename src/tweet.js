@@ -12,7 +12,10 @@ async function tweet() {
     strictSSL: true, // optional - requires SSL certificates to be valid.
   });
 
-  const clip = await getTwitchClip();
+  let clip = await getTwitchClip();
+  while (clip.clip == 'cancel'){
+    clip = await getTwitchClip()
+  }
   if (clip.coder[1] == '') {
     text = `${clip.clip.title} ${clip.clip.url} | ${clip.coder[0]}`;
   } else {
