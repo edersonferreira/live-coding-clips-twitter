@@ -27,4 +27,4 @@ async function getTwitchClip() {
   }
 }
 
-module.exports = getTwitchClip
+module.exports = getTwitchClip;

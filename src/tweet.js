@@ -1,4 +1,4 @@
-require('dotenv').config();
+equire('dotenv').config();
 const Twit = require('twit');
 const getTwitchClip = require('./getTwitchClip');
 
@@ -13,13 +13,13 @@ async function tweet() {
   });
 
   let clip = await getTwitchClip();
-  while (clip.clip == 'cancel'){
-    clip = await getTwitchClip()
+  while (clip.clip == 'cancel') {
+    clip = await getTwitchClip();
   }
   if (clip.coder[1] == '') {
     text = `${clip.clip.title} ${clip.clip.url} | ${clip.coder[0]}`;
   } else {
-    text = `${clip.clip.title} ${clip.clip.url} | @${clip.coder[1]}`;
+    text = `${clip.clip.title} ${clip.clip.url} | ${clip.coder[1]}`;
   }
 
   T.post('statuses/update', { status: text }, function (
@@ -29,4 +29,4 @@ async function tweet() {
   ) {});
 }
 
-module.exports = tweet
+module.exports = tweet;
