@@ -1,4 +1,4 @@
-equire('dotenv').config();
+require('dotenv').config();
 const Twit = require('twit');
 const getTwitchClip = require('./getTwitchClip');
 
