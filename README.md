@@ -18,7 +18,7 @@
 | NpXbr              | npxbr          |
 | PACHIcodes         | pachicodes     |
 | PauloMoraesDev     | paulomoraesdev |
-| Paulo_Kiitasu      |                |
+| Paulo_Kiitasu      | paulosmLins    |
 | PixlRose           | pixlrose       |
 | ProfBrunoLopes     | brunolopesjn   |
 | PunkDoDevOps       | punkdodevops   |
@@ -38,7 +38,7 @@
 | jpbrab0            | jpbrab0        |
 | juhbotelho         | juhbotelho     |
 | julialabs          |                |
-| kastr0walker       |                |
+| kastr0walker       | kastrowalker   |
 | levxyca            | levxyca        |
 | muffyway           | muffyway       |
 | pokemaobr          | pokemaobr      |
