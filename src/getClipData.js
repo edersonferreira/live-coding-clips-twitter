@@ -1,6 +1,6 @@
-require('dotenv').config();
-const randomNumber = require('./randomNumber');
-const { default: got } = require('got/dist/source');
+require("dotenv").config();
+const randomNumber = require("./randomNumber");
+const { default: got } = require("got/dist/source");
 
 async function getClipData(response) {
   data = JSON.parse(response.body);
@@ -15,14 +15,14 @@ async function getClipData(response) {
     const query = await got(`https://api.twitch.tv/kraken/videos/${id}`, {
       headers: {
         Authorization: process.env.TWITCH_BEARER_TOKEN,
-        'client-id': process.env.TWITCH_CLIENT_ID,
-        Accept: 'application/vnd.twitchtv.v5+json',
+        "client-id": process.env.TWITCH_CLIENT_ID,
+        Accept: "application/vnd.twitchtv.v5+json",
       },
     });
     const dataQuery = JSON.parse(query.body);
     dataQueryTitle = dataQuery.title;
     if (dataQuery.title === title) {
-      return 'cancel';
+      return getClipData();
     } else {
       return { title, url };
     }

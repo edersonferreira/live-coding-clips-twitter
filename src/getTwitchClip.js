@@ -1,7 +1,7 @@
-require('dotenv').config();
-const got = require('got');
-const getCoder = require('./getCoder');
-const getClipData = require('./getClipData');
+require("dotenv").config();
+const got = require("got");
+const getCoder = require("./getCoder");
+const getClipData = require("./getClipData");
 
 // return data from twitch API
 async function getTwitchClip() {
@@ -14,10 +14,10 @@ async function getTwitchClip() {
       {
         headers: {
           Authorization: process.env.TWITCH_BEARER_TOKEN,
-          'client-id': process.env.TWITCH_CLIENT_ID,
-          Accept: 'application/vnd.twitchtv.v5+json',
+          "client-id": process.env.TWITCH_CLIENT_ID,
+          Accept: "application/vnd.twitchtv.v5+json",
         },
-      },
+      }
     );
     clipData = await getClipData(response);
     return { clip: clipData, coder: coder };

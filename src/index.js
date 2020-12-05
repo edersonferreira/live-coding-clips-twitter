@@ -1,11 +1,11 @@
-const express = require('express');
-const cors = require('cors');
-const tweet = require('./tweet');
+const express = require("express");
+const cors = require("cors");
+const tweet = require("./tweet");
 const app = express();
 
-app.get('/', function (req, res) {
+app.get("/", function (req, res) {
   tweet();
-  res.send('OK');
+  res.send("OK");
   res.statusCode = 200;
 });
 
