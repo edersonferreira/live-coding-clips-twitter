@@ -37,10 +37,10 @@
 | jpbrab0            |        jpbrab0 |
 | juhbotelho         |     juhbotelho |
 | julialabs          |                |
-| kastr0walker       |                |
+| kastr0walker       |   kastrowalker |
 | levxyca            |        levxyca |
 | muffyway           |       muffyway |
-| paulosmLins        |                |
+| paulosmLins        |    paulosmLins |
 | pokemaobr          |      pokemaobr |
 | wesleycsj          |      wesleycsj |
 | xDIDAdev           |       xdidadev |
