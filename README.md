@@ -4,47 +4,47 @@
 
 # Lista de Live Coders:
 
-| Twitch             | Twitter        |
+| Twitch             |        Twitter |
 | :----------------- | -------------: |
 | 4RT110Rcav         |                |
-| ChicaoCodes        | chicaothiago   |
+| ChicaoCodes        |   chicaothiago |
 | ChicoCodes         | franciscosouza |
-| CodeShow           | rochacbruno    |
-| CodigoFalado       | CodigoFalado   |
-| EduardoCodes       | duromeiro      |
-| LINUXtips          | badtux         |
-| LiveDePython       | dunossauro     |
-| Nonykko            | nonykko        |
-| NpXbr              | npxbr          |
-| PACHIcodes         | pachicodes     |
+| CodeShow           |    rochacbruno |
+| CodigoFalado       |   CodigoFalado |
+| EduardoCodes       |      duromeiro |
+| LINUXtips          |         badtux |
+| LiveDePython       |     dunossauro |
+| Nonykko            |        nonykko |
+| NpXbr              |          npxbr |
+| PACHIcodes         |     pachicodes |
 | PauloMoraesDev     | paulomoraesdev |
-| Paulo_Kiitasu      |                |
-| PixlRose           | pixlrose       |
-| ProfBrunoLopes     | brunolopesjn   |
-| PunkDoDevOps       | punkdodevops   |
-| RacerXDL           | lucasteske     |
+| PixlRose           |       pixlrose |
+| ProfBrunoLopes     |   brunolopesjn |
+| PunkDoDevOps       |   punkdodevops |
+| RacerXDL           |     lucasteske |
 | Saviomz            |                |
-| TavernaDev         | TavernaDev     |
-| TiaguMB            | TiaguMB        |
-| Victor_Perin       | Victor_Perin   |
+| TavernaDev         |     TavernaDev |
+| TiaguMB            |        TiaguMB |
+| Victor_Perin       |   Victor_Perin |
 | clarisse_alvarenga |                |
-| codandoerrado      | CodandoErrado  |
-| danielhe4rt        | danielhe4rt    |
-| edersondeveloper   | edersondev     |
-| erikaheidi         | erikaheidi     |
-| felipef0ntana      | f0ntana        |
-| itsevolution       | itsevolution   |
-| josevalim          | josevalim      |
-| jpbrab0            | jpbrab0        |
-| juhbotelho         | juhbotelho     |
+| codandoerrado      |  CodandoErrado |
+| danielhe4rt        |    danielhe4rt |
+| edersondeveloper   |     edersondev |
+| erikaheidi         |     erikaheidi |
+| felipef0ntana      |        f0ntana |
+| itsevolution       |   itsevolution |
+| josevalim          |      josevalim |
+| jpbrab0            |        jpbrab0 |
+| juhbotelho         |     juhbotelho |
 | julialabs          |                |
 | kastr0walker       |                |
-| levxyca            | levxyca        |
-| muffyway           | muffyway       |
-| pokemaobr          | pokemaobr      |
-| wesleycsj          | wesleycsj      |
-| xDIDAdev           | xdidadev       |
-| xTecna             | WNXTecna       |
+| levxyca            |        levxyca |
+| muffyway           |       muffyway |
+| paulosmLins        |                |
+| pokemaobr          |      pokemaobr |
+| wesleycsj          |      wesleycsj |
+| xDIDAdev           |       xdidadev |
+| xTecna             |       WNXTecna |
 
 # Adicionar novos Live Coders
 
