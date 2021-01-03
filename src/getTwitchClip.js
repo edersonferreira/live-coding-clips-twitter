@@ -10,7 +10,7 @@ async function getTwitchClip() {
 
     // make the request
     const response = await got(
-      `https://api.twitch.tv/kraken/clips/top?channel=${coder[0]}&limit=100&period=month`,
+      `https://api.twitch.tv/kraken/clips/top?channel=${coder[0]}&limit=100&period=week`,
       {
         headers: {
           Authorization: process.env.TWITCH_BEARER_TOKEN,
