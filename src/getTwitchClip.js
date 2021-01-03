@@ -10,7 +10,7 @@ async function getTwitchClip() {
 
     // make the request
     const response = await got(
-      `https://api.twitch.tv/kraken/clips/top?channel=${coder[0]}&limit=100&period=week`,
+      `https://api.twitch.tv/kraken/clips/top?channel=${coder[0]}&limit=100&period=month`,
       {
         headers: {
           Authorization: process.env.TWITCH_BEARER_TOKEN,
@@ -20,7 +20,11 @@ async function getTwitchClip() {
       }
     );
     clipData = await getClipData(response);
-    return { clip: clipData, coder: coder };
+    console.log(process.env.BANNED_CLIP_FROM_FDP != clipData.url)
+    if (process.env.BANNED_CLIP_FROM_FDP != clipData.url){
+      return { clip: clipData, coder: coder };
+    }
+    return getTwitchClip()
   } catch (error) {
     // if the live coder doesn't have clips, do the function again
     return getTwitchClip();
