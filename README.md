@@ -28,7 +28,6 @@
 | Victor_Perin       |   Victor_Perin |
 | clarisse_alvarenga |                |
 | codandoerrado      |  CodandoErrado |
-| danielhe4rt        |    danielhe4rt |
 | edersondeveloper   |     edersondev |
 | erikaheidi         |     erikaheidi |
 | felipef0ntana      |        f0ntana |
