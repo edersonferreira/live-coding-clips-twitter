@@ -2,49 +2,6 @@
 
 **Live Coding Clips** é um bot do twitter que a cada 30 minutos posta um clip de algum Live Coder da Twitch.
 
-# Lista de Live Coders:
-
-| Twitch             |        Twitter |
-| :----------------- | -------------: |
-| 4RT110Rcav         |                |
-| ChicaoCodes        |   chicaothiago |
-| ChicoCodes         | franciscosouza |
-| CodeShow           |    rochacbruno |
-| CodigoFalado       |   CodigoFalado |
-| EduardoCodes       |      duromeiro |
-| LINUXtips          |         badtux |
-| LiveDePython       |     dunossauro |
-| Nonykko            |        nonykko |
-| NpXbr              |          npxbr |
-| PACHIcodes         |     pachicodes |
-| PauloMoraesDev     | paulomoraesdev |
-| PixlRose           |       pixlrose |
-| ProfBrunoLopes     |   brunolopesjn |
-| PunkDoDevOps       |   punkdodevops |
-| RacerXDL           |     lucasteske |
-| Saviomz            |                |
-| TavernaDev         |     TavernaDev |
-| TiaguMB            |        TiaguMB |
-| Victor_Perin       |   Victor_Perin |
-| clarisse_alvarenga |                |
-| codandoerrado      |  CodandoErrado |
-| edersondeveloper   |     edersondev |
-| erikaheidi         |     erikaheidi |
-| felipef0ntana      |        f0ntana |
-| itsevolution       |   itsevolution |
-| josevalim          |      josevalim |
-| jpbrab0            |        jpbrab0 |
-| juhbotelho         |     juhbotelho |
-| julialabs          |                |
-| kastr0walker       |   kastrowalker |
-| levxyca            |        levxyca |
-| muffyway           |       muffyway |
-| paulosmLins        |    paulosmLins |
-| pokemaobr          |      pokemaobr |
-| wesleycsj          |      wesleycsj |
-| xDIDAdev           |       xdidadev |
-| xTecna             |       WNXTecna |
-
 # Adicionar novos Live Coders
 
 Caso você seja um, e queria adicionar ou editar um live coder, faça uma issue, ou de preferência uma pull request com as suas adições/modificações. Mudando tanto to README, quanto no arquivo `src/getCoder.js` de preferência. Pois é nele que estão os dados.
