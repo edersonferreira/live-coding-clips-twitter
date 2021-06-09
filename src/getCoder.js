@@ -3,7 +3,6 @@ const randomNumber = require("./randomNumber");
 function getCoder() {
   // list of live coders twitch and twitter
   const list = [
-    ["ChicaoThiago", "chicaothiago"],
     ["ChicoCodes", "franciscosouza"],
     ["CodeShow", "rochacbruno"],
     ["CodigoFalado", "CodigoFalado"],
@@ -33,6 +32,7 @@ function getCoder() {
     ["moniquelive", "moniquelive"],
     ["morgannadev", "morgannadev"],
     ["muffyway", "muffyway"],
+    ["oxeChicao", "oxechicao"],
     ["pokemaobr", "pokemaobr"],
     ["tonhocodes", "tonhocodes"],
     ["vitthin", "vitthor_"],
